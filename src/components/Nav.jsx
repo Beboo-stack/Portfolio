@@ -168,7 +168,7 @@ const Nav = () => {
             variants={listVariants}
             initial="closed"
             animate="opened"
-            className="absolute w-screen h-screen top-0 left-0 bg-black text-white flex flex-col justify-center items-center gap-8 text-4xl"
+            className="absolute w-screen h-screen top-0 left-0 bg-black text-white flex flex-col justify-center items-center gap-8 text-4xl z-50"
           >
             {links.map((item, id) => (
               <motion.div variants={listItemVariant} key={id} className="">
